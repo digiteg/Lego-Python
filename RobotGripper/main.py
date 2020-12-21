@@ -42,9 +42,11 @@ robot = DriveBase(left_motor, right_motor, WHEEL_DIAMETER, AXLE_TRACK)
 
 infrared_sensor = InfraredSensor(Port.S4)
 
-# Write your program here.
+# Beep - Init ready
+
 ev3.speaker.beep()
-#ev3.speaker.say("I'm robot")
+
+# Program --------------------------- 
 
 
 def gripper_reset():
